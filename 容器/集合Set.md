@@ -3,7 +3,7 @@
 
 - `HashSet` 和 `TreeSet` 都实现了 `Set` 接口
 
-## HashSet
+## 1. HashSet
 ```java
 var badWords = new HashSet<String>();
 badWords.add("sex");
@@ -15,7 +15,7 @@ if (badWords.contains(username.toLowerCase())) {
 }
 ```
 
-## TreeSet
+## 2. TreeSet
 - `TreeSet` 可以按排序顺序遍历集合  
 - `TreeSet` 类实现了 `SortedSet` 接口 和 `NavigableSet` 接口  
 - 集合元素类型必须实现 `Comparable` 接口，或者在构造器中提供 `Comparator` 方法  
